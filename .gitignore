@@ -1,0 +1,8 @@
+*.pyc
+
+app.py
+haiqueue.py
+
+
+Docs/
+static/
