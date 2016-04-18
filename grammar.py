@@ -18,35 +18,6 @@ VBG = 'VBG'     # verb (present participle)
 VBD = 'VBD'     # verb (past)
 VBN = 'VBN'     # verb (past participle)
 
-# plural VP
-{
-    'VPS': {
-        left: [None, Adv],
-        right: [VB, VBD, VBN, VBG],
-    },
-    # singular VP
-    'VP': {
-        left: [None, Adv],
-        right: [VBZ, VBD, VBN, VBG],
-    },
-    VB: {
-        left: [True, ],
-        right: [None, DS, D, P],
-    },
-    VBD: {
-        left: [True, ],
-        right: [None, DS, D, P],
-    },
-    VBN: {
-        left: [True, ],
-        right: [None, DS, D, P],
-    },
-    VBG: {
-        left: [True, ],
-        right: [None, DS, D, P],
-    },
-}
-
 # i.e., bastardized syntax
 grammar = {
     line1: {
